@@ -16,8 +16,7 @@ class Main extends React.Component {
     return (
       <HashRouter>
         <div>
-          <h1>Welcome to Dang's portfolio!</h1>
-          <ul>
+          <ul className="navbar">
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/software">Software</NavLink></li>
             <li><NavLink to="/art">Art</NavLink></li>
@@ -25,7 +24,7 @@ class Main extends React.Component {
             <li><NavLink to="/resume">Resume</NavLink></li>
             <li><NavLink to="/ee">IB Extended Essay</NavLink></li>
           </ul>
-          <div>
+          <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/software" component={Software}/>
             <Route path="/art" component={Art}/>
@@ -33,6 +32,10 @@ class Main extends React.Component {
             <Route path="/resume" component={Resume}/>
             <Route path="/ee" component={ExtendedEssay}/>
           </div>
+        </div>
+        <div className="footer">
+            <p>Phone: +1 (773) 936-0857</p>
+            <p>Email: dangnguyen@uchicago.edu</p>
         </div>
       </HashRouter>
     );
