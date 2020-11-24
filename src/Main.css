@@ -40,47 +40,13 @@ ul.navbar li a:hover {
   background-color: #000000;
 }
 
+/* change button colors when clicked */
 .active {
   background-color: #b50d0d;
 }
 
 .content {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.row {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
-.col.left {
-  width: 50%;
-  padding: 20px;
-}
-
-.col.right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  right: 0;
-  top: 0;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .col.left, .col.right {
-    width: 100%;
-  }
+  padding: 15px;
 }
 
 .footer {
@@ -92,18 +58,4 @@ ul.navbar li a:hover {
 .footer p {
   color: #ffffff;
   font-size: 16px;
-}
-
-.profile {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-
-.col.right h1 {
-  font-size: 40px;
-}
-
-.col.right span {
-  font-size: 20px;
 }

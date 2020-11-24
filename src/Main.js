@@ -4,12 +4,15 @@ import {
   NavLink,
   HashRouter
 } from 'react-router-dom';
-import Home from './Home';
-import Software from './Software';
-import Art from './Art';
-import Desserts from './Desserts';
-import Resume from './Resume';
-import ExtendedEssay from './ExtendedEssay';
+
+import Home from './Home/Home';
+import Software from './Software/Software';
+import Art from './Art/Art';
+import Desserts from './Desserts/Desserts';
+import Resume from './Resume/Resume';
+import ExtendedEssay from './EE/ExtendedEssay';
+
+import './Main.css'
 
 class Main extends React.Component {
   render() {

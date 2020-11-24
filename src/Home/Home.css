@@ -1,0 +1,46 @@
+.row {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col.left {
+  width: 50%;
+}
+
+.profile {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.col.right {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+
+.col.right h1 {
+  font-size: 40px;
+}
+
+.col.right span {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .col.left, .col.right {
+    width: 100%;
+  }
+}
