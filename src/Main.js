@@ -8,7 +8,7 @@ import {
 import Home from './Home/Home';
 import Software from './Software/Software';
 import Art from './Art/Art';
-import Desserts from './Desserts/Desserts';
+import Cooking from './Cooking/Cooking';
 import Resume from './Resume/Resume';
 import ExtendedEssay from './EE/ExtendedEssay';
 
@@ -23,7 +23,7 @@ class Main extends React.Component {
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/software">Software</NavLink></li>
             <li><NavLink to="/art">Art</NavLink></li>
-            <li><NavLink to="/desserts">Cooking</NavLink></li>
+            <li><NavLink to="/cooking">Cooking</NavLink></li>
             <li><NavLink to="/resume">Resume</NavLink></li>
             <li><NavLink to="/ee">IB Extended Essay</NavLink></li>
           </ul>
@@ -31,7 +31,7 @@ class Main extends React.Component {
             <Route exact path="/" component={Home}/>
             <Route path="/software" component={Software}/>
             <Route path="/art" component={Art}/>
-            <Route path="/desserts" component={Desserts}/>
+            <Route path="/cooking" component={Cooking}/>
             <Route path="/resume" component={Resume}/>
             <Route path="/ee" component={ExtendedEssay}/>
           </div>

@@ -1,10 +1,10 @@
 import React from 'react';
 import './Art.css';
 
-import helmet from './Artworks/helmet.png';
-import shark from './Artworks/shark.png';
-import cockroach from './Artworks/cockroach.jpg';
-import imposter from './Artworks/imposter.png';
+import helmet from './photos/helmet.png';
+import shark from './photos/shark.png';
+import cockroach from './photos/cockroach.jpg';
+import imposter from './photos/imposter.png';
 
 class Art extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class Art extends React.Component {
         <div className="art1">
           <div className="project_week_container">
             <div className="project_week">
-              <iframe src="https://www.youtube.com/embed/s0fM7SAyN2c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title="pw" src="https://www.youtube.com/embed/s0fM7SAyN2c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
           <div className="project_week_txt">
@@ -26,7 +26,7 @@ class Art extends React.Component {
         <div className="art2">
           <div className="words_container">
             <div className="words">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/DfkY26hFI5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title="words" src="https://www.youtube.com/embed/DfkY26hFI5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
           <div className="words_txt">
