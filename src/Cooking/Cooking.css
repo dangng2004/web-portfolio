@@ -1,0 +1,16 @@
+.cooking_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cooking_col {
+  flex: 20%;
+  max-width: 20%;
+  padding: 0 4px;
+}
+
+.cooking_col img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
