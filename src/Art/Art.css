@@ -1,0 +1,133 @@
+.art1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 5%;
+}
+
+.project_week_container {
+  width: 60%;
+  margin-right: 2.5%;
+}
+
+.project_week {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.project_week iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.project_week_txt {
+  width: 40%;
+}
+
+.art2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 5%;
+}
+
+.words_container {
+  width: 60%;
+  margin-right: 2.5%;
+}
+
+.words {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.words iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.words_txt {
+  width: 40%;
+}
+
+.art3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 5%;
+}
+
+.helmet {
+  width: 60%;
+  height: auto;
+  margin-right: 2.5%;
+}
+
+.helmet_txt {
+  width: 40%;
+}
+
+.art4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 5%;
+}
+
+.shark {
+  width: 60%;
+  height: auto;
+  margin-right: 2.5%;
+}
+
+.shark_txt {
+  width: 40%;
+}
+
+.art5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 5%;
+}
+
+.cockroach {
+  width: 60%;
+  height: auto;
+  margin-right: 2.5%;
+}
+
+.cockroach_txt {
+  width: 40%;
+}
+
+.art6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 5%;
+}
+
+.imposter {
+  width: 60%;
+  height: auto;
+  margin-right: 2.5%;
+}
+
+.imposter_txt {
+  width: 40%;
+}

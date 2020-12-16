@@ -23,7 +23,7 @@ class Main extends React.Component {
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/software">Software</NavLink></li>
             <li><NavLink to="/art">Art</NavLink></li>
-            <li><NavLink to="/desserts">Desserts</NavLink></li>
+            <li><NavLink to="/desserts">Cooking</NavLink></li>
             <li><NavLink to="/resume">Resume</NavLink></li>
             <li><NavLink to="/ee">IB Extended Essay</NavLink></li>
           </ul>

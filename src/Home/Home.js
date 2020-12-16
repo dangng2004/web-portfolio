@@ -12,7 +12,7 @@ class Home extends React.Component {
         <div className="col right">
           <div>
             <h1>WELCOME TO MY WEBSITE!</h1>
-            <span>Check out my software, art, desserts, and more!</span>
+            <span>Check out my software, art, cooking, and more!</span>
           </div>
         </div>
       </div>

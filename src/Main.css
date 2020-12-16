@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-h1, h2, ul, li, span {
+h1, h2, h3, ul, li, span {
   font-family: Calibri, sans-serif;
   font-size: 20px;
 }
