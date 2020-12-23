@@ -20,14 +20,14 @@ class Main extends React.Component {
         <div className="screen">
           <div className="content">
             <ul className="navbar">
-              <li><Link to="/web-portfolio">Home</Link></li>
+              <li><Link exact to="/home">Home</Link></li>
               <li><Link to="/software">Software</Link></li>
               <li><Link to="/art">Art</Link></li>
               <li><Link to="/cooking">Cooking</Link></li>
               <li><Link to="/resume">Resume</Link></li>
             </ul>
             <div className="pages">
-              <Route exact path="/web-portfolio" component={Home}/>
+              <Route exact path="/home" component={Home}/>
               <Route path="/software" component={Software}/>
               <Route path="/art" component={Art}/>
               <Route path="/cooking" component={Cooking}/>
