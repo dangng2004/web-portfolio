@@ -5,19 +5,17 @@
 }
 
 .row:after {
-  content: "";
   display: table;
   clear: both;
 }
 
 .col.left {
-  width: 50%;
+  width: 40%;
 }
 
 .profile {
   width: 100%;
   height: auto;
-  overflow: hidden;
 }
 
 .col.right {
@@ -25,7 +23,7 @@
   justify-content: center; /* horizontal center */
   align-items: center; /* vertical center */
   position: absolute;
-  width: 50%;
+  width: 60%;
   height: 100%;
   right: 0;
   top: 0;

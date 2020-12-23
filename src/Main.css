@@ -45,11 +45,24 @@ ul.navbar li a:hover {
   background-color: #b50d0d;
 }
 
+.screen {
+  position: relative;
+  min-height: 100vh;
+}
+
 .content {
+  padding-bottom: 8rem;
+}
+
+.pages {
   padding: 15px;
 }
 
 .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
   background-color: #333333;
   padding: 10px;
   text-align: center;
