@@ -20,7 +20,7 @@ class Main extends React.Component {
         <div className="screen">
           <div className="content">
             <ul className="navbar">
-              <li><NavLink exact to="/web-portfolio">Home</NavLink></li>
+              <li><NavLink to="/web-portfolio">Home</NavLink></li>
               <li><NavLink to="/software">Software</NavLink></li>
               <li><NavLink to="/art">Art</NavLink></li>
               <li><NavLink to="/cooking">Cooking</NavLink></li>
