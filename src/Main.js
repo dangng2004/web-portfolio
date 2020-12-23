@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   Route,
-  NavLink,
+  Link,
   HashRouter
 } from 'react-router-dom';
 
@@ -20,14 +20,14 @@ class Main extends React.Component {
         <div className="screen">
           <div className="content">
             <ul className="navbar">
-              <li><NavLink exact to="/home">Home</NavLink></li>
-              <li><NavLink to="/software">Software</NavLink></li>
-              <li><NavLink to="/art">Art</NavLink></li>
-              <li><NavLink to="/cooking">Cooking</NavLink></li>
-              <li><NavLink to="/resume">Resume</NavLink></li>
+              <li><Link exact to="/web-portfolio">Home</Link></li>
+              <li><Link to="/software">Software</Link></li>
+              <li><Link to="/art">Art</Link></li>
+              <li><Link to="/cooking">Cooking</Link></li>
+              <li><Link to="/resume">Resume</Link></li>
             </ul>
             <div className="pages">
-              <Route exact path="/home" component={Home}/>
+              <Route exact path="/web-portfolio" component={Home}/>
               <Route path="/software" component={Software}/>
               <Route path="/art" component={Art}/>
               <Route path="/cooking" component={Cooking}/>
